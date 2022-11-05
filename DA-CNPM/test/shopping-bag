@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>WSC</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img width="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgPr7HSoQqMTNMjQ5EuYk1ln_uiTXvnUT30c6zxa4F5K5qRSLfb9eftUyu1-vyWdx8YK8&usqp=CAU">
+    </div>
+    <div class="menu">
+        <li><a href="" style="color: black;">Khuyến mãi </a></li>
+        <li><a href="" style="color: black;">HOT </a></li>
+        <li><a href="" style="color: black;">Tops </a></li>
+        <li><a href="" style="color: black;">Bottoms </a></li>
+        <li><a href="" style="color: black;">Phụ kiện </a></li>
+    </div>
+    <div class="others">
+        <li><input placeholder="Tìm kiếm" type="text"> <i class="fas fa-search"></i> </li>
+        
+        <li><a class="fa fa-heart-o" href="" style="color: black ;"></a></li>
+        <li><a class="fa fa-user-o" href="" style="color: black;"></a></li>
+        <li><a class="fa fa-shopping-bag" href="" style="color: #088178;"></a></li>
+        
+    </div>
+
+</header>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Hủy bỏ</td>
+                    <td>Hình Ảnh</td>
+                    <td>Sản Phẩm</td>
+                    <td>Giá</td>
+                    <td>Số lượng</td>
+                    <td>Tổng cộng</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="https://levents.asia/wp-content/uploads/2021/10/GREY-2-1-400x500.png" alt=""></td>
+                    <td>Áo thun</td>
+                    <td>500.000VNĐ</td>
+                    <td><input type="number" value="1"></td>
+                    <td>500.000VNĐ</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="https://levents.asia/wp-content/uploads/2022/09/z3791737366250_9b4f72a7aa89c9fb718d7e11a382025d-400x500.jpg" alt=""></td>
+                    <td>Áo hoodie zip</td>
+                    <td>1.000.000VNĐ</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1.000.000VNĐ</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="https://levents.asia/wp-content/uploads/2022/10/z3835474324884_ec57e181118e41faa1e5a968d2260e47-400x500.jpg" alt=""></td>
+                    <td>Áo Varsity</td>
+                    <td>1.500.000VNĐ</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1.500.000VNĐ</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Nhập Voucher</h3>
+            <div>
+                <input type="text" placeholder="Thêm mã CODE vào đây">
+                <button class="normal">Kiểm tra</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Tổng quan đơn</h3>
+            <table>
+                <tr>
+                    <td>Tổng tiền</td>
+                    <td>3.000.000VNĐ</td>
+                </tr>
+                <tr>
+                    <td>Giảm giá Voucher</td>
+                    <td>500.000VNĐ</td>
+                </tr>
+                <tr>
+                    <td>Phí vận chuyển</td>
+                    <td>50.000VNĐ</td>
+                </tr>
+                <tr>
+                    <td><strong>Số tiền phải thanh toán</strong></td>
+                    <td><strong>2.550.000VNĐ</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Đặt hàng ngay</button>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" width="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgPr7HSoQqMTNMjQ5EuYk1ln_uiTXvnUT30c6zxa4F5K5qRSLfb9eftUyu1-vyWdx8YK8&usqp=CAU" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> KTX Khu A</p>
+            <p><strong>Phone:</strong> +0889202626</p>
+            <P><Strong>Hours:</Strong> 10:00 - 18:00, Mon - Sat </P>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Thông tin Shop</h4>
+            <a href="#"> Giới thiệu WSC</a>
+            <a href="#">Tuyển dụng</a>
+            <a href="#">Blogger thời trang</a>
+        </div>
+
+        <div class="col">
+            <h4>Trung tâm hỗ trợ</h4>
+            <a href="#">Thông tin vận chuyển</a>
+            <a href="#">Hướng dẫn đổi trả</a>
+            <a href="#">Hướng dẫn đặt hàng</a>
+            <a href="#">Làm thế nào để theo dõi</a>
+        </div>
+
+        <div class="col">
+            <h4>Dịch vụ khách hàng</h4>
+            <a href="#">Liên hệ chúng tôi</a>
+            <a href="#">Phương thức thanh toán</a>
+            <a href="#">Điểm thưởng</a>
+            <a href="#">Trung tâm dùng thử miễn phí</a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2022 | WSC All Rights Reserved</p>
+        </div>
+
+
+
+
+
+    </footer> 
+
+</body>
+</html>
